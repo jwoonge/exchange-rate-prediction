@@ -1,0 +1,86 @@
+@USA
+united state/USA
+@JPY
+japan/japanese
+@EUR
+europe/european/EU
+@GBP
+united kingdom/British/UK
+@CAD
+canada
+@CHF
+switzerland/swiss confederation
+@HKD
+hongkong
+@CNY
+china/Chinese
+@THB
+thailand/Thai/Thailander
+@IDR
+indonesia/Indonesian
+@SEK
+sweden/Swedish
+@AUD
+australia/Australians
+@DKK
+denmark/Danish
+@NOK
+norway/Norwegian
+@SAR
+saudi arabia/saudi/Saudi Arabian
+@KWD
+kuwait/Kuwaiti
+@BHD
+bahrain/Bahraini
+@AED
+U.A.E/arab emirates/the United Arab Emirates
+@SGD
+singapore/Singaporean
+@MYR
+malaysia/Malaysians
+@NZD
+new zealand/New Zealander
+@TWD
+taiwan/Taiwanese
+@PHP
+philippin/Filipino/Filipina
+@VND
+vietnam/Vietnamese
+@PLN
+poland/Polish
+@RUB
+russia/the Russian Federation/Russian
+@ZAR
+republic of south africa/South African/South Africa
+@INR
+india/Indian
+@PKR
+pakistan/Pakistani
+@BDT
+bangladesh/Bangladeshi
+@EGP
+egypt/Egyptian
+@MXN
+mexico/Mexican/the United Mexican States
+@BRL
+brazil/Brazilian
+@BDN
+brunei
+@ILS
+israel/Islamic
+@JOD
+jordanJordanian
+@CZK
+czech/Czech Republic
+@MNT
+mongolia/Mongo/Mongolian
+@FJD
+fiji
+@KHR
+cambodia/Cambodian
+@TRY
+turkey/Turk
+@HUF
+hungary/Hungarian
+@QAR
+catarrh/Qatar
