@@ -1,5 +1,3 @@
-@USA
-united state/USA
 @JPY
 japan/japanese
 @EUR

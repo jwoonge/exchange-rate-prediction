@@ -63,17 +63,11 @@ def date_to_week_list() :
     return date_to_week_list
 
 
-def crawling_nytimes(currency, country_names, direct):
+def crawling_nytimes(currency, country_names, direct, driver):
     date_to_week = date_to_week_list()
     todo_list = dict()
     base_url = "http://www.nytimes.com"
     sections = r'&sections=World%7Cnyt%3A%2F%2Fsection%2F70e865b6-cc70-5181-84c9-8368b3a5c34b&sort=best&startDate='
-
-    options = webdriver.ChromeOptions()
-    #options.headless=True
-    driver = webdriver.Chrome('C:\\Users\\jwoonge\\Desktop\\selenium\\chromedriver_win32\\chromedriver', chrome_options=options)
-    driver.implicitly_wait(3)
-    login_nytimes(driver)
 
     for country_name in country_names:
         print('  for search keyword ',country_name)
@@ -95,24 +89,37 @@ def crawling_nytimes(currency, country_names, direct):
     print('\n  got ',len(todo_list.keys()),'urls')
     print('  crawling article bodies...')
 
-    
+    try:
+        f = open('resource/urls/'+currency+'.txt', 'a', encoding='utf-8')
+        for url in todo_list.keys():
+            title = todo_list[url][1].replace(':',' ')
+            date = todo_list[url][0]
+           
+            f.write(url+'##'+str(date)+'##'+title+'\n')
+        f.close()
+
+    except:
+        print('error!!!!!')
+
+
+    count = 0
     for url in todo_list.keys():
         body = crawling_nytimes_body(base_url + url, driver)
         title = todo_list[url][1].replace(":"," ")
         date = todo_list[url][0]
-        directory = direct +'/'+ currency+'/'+str(date)
+        directory = direct + '/' +currency+'/'+str(date)
         if not os.path.exists(directory):
             os.makedirs(directory)
-        file_name = directory+'/'+title+'.txt'
+        #file_name = directory+'/'+title+'.txt'
         try:
-            f = open(file_name, 'w', encoding='utf-8')
+            f = open(directory+'/times'+str(count)+'.txt', 'w', encoding='utf-8')
+            f.write(title+'\n')
             f.write(body)
         except:
             print('error!')
         finally:
             f.close()
-
-    driver.quit()
+        count += 1
             
 def crawling_nytimes_body(url, driver):
     driver.get(url)
@@ -146,4 +153,10 @@ def click_show_more_btn(driver):
             break
 
 if __name__=='__main__':
-    crawling_nytimes('china', ['china'], '../news')
+
+    options = webdriver.ChromeOptions()
+    #options.headless=True
+    driver = webdriver.Chrome('C:\\Users\\jwoonge\\Desktop\\selenium\\chromedriver_win32\\chromedriver', chrome_options=options)
+    driver.implicitly_wait(3)
+    login_nytimes(driver)
+    crawling_nytimes('china', ['china'], '../news', driver)

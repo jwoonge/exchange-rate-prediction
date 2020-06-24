@@ -23,10 +23,19 @@ def get_countries(dir):
 
 if __name__=='__main__':
     countries = get_countries('resource/country.txt')
+    '''
+    options = webdriver.ChromeOptions()
+    #options.headless=True
+    driver = webdriver.Chrome('resource\\chromedriver_win32\\chromedriver', chrome_options=options)
+    driver.implicitly_wait(3)
+    login_nytimes(driver)
 
     for currency in countries.keys():
         print("crawling ",currency," from new-york times")
-        crawling_nytimes(currency, countries[currency], '../news')
+        crawling_nytimes(currency, countries[currency], '../news', driver)
+    '''
+
+    for currency in countries.keys():
         print("crawling ",currency," from new-york daily news")
         crawling_nydailynews(currency, countries[currency], '../news')
         

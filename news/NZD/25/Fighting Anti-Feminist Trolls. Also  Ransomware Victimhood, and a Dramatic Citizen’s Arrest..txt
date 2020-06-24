@@ -1,0 +1,30 @@
+The Breakdown puts a selection of Australia’s daily news into context. Today’s picks:
+• The bookish man who learned what it’s like to be a feminist author attacked by trolls.
+• The ransomware victim list: Qantas, no; DLA Piper, yes; Cadbury, maybe.
+• A citizen’s arrest in Western Australia that deserves to go viral.
+On Monday night, while feeding his 1-year-old son, Chris Currie encountered what many women and few men have to confront: vicious online attacks from anti-feminist trolls.
+“It was a bit of a shock,” he told us on Wednesday.
+All he’d done was publish a short post that morning on the Facebook page of Avid Reader, a Brisbane independent bookshop where he’s the social media manager. It simply celebrated the news that Clementine Ford, the Australian feminist author and commentator, had secured a publishing deal for her second book.
+But that was enough.
+Bad reviews on Avid Reader’s Facebook page flooded in. Mr. Currie’s phone was inundated with abusive messages. The notifications were wild, violent, persistent — and all from men.
+“It’s something that I don’t have to deal with on a daily basis, like Clementine certainly does,” Mr. Currie said. “It’s scary how it develops so quickly, and how people from all over the world get roped in.”
+Can online harassment ever be stopped? The campaign — sloppy, abusive and spiteful — was the brainchild of an Australia-based anti-feminism Facebook page. Through a bizarre Facebook poll, the group’s administrators proposed “fighting fire with fire” by flooding any business supporting Ms. Ford with bad Facebook reviews.
+It seems to be retaliation aimed directly at Ms. Ford, whose first book, “Fight Like a Girl,” established her image as a feminist willing to be combative. This week she also called out the group for, well, being losers with nothing better to do.
+Mr. Currie said he never considered seeking official support from Facebook. After a bit of Twitter-shaming that went nowhere, he said of Facebook: “They seem particularly ineffectual.”
+This is a common problem.
+“Most social-media platforms don’t want to be crucified with claims of censorship for regulating what people can say online,”  our New York Times Magazine tech columnist, Jenna Wortham, wrote a couple of months ago.
+And they get away with it, in part, experts say, because, there is still no consensus in the digital or real world about how to define a digital hate crime, harassment and assault. Governments certainly aren’t doing much to wrestle with the problem; as we wrote yesterday, they’re more interested in finding ways into encrypted messages from terrorists.
+In this case, at least, the internet itself came to Avid Reader’s aid. Prodded by Ms. Ford, who did not respond to emails seeking comment, a cavalry of do-gooders arrived from Twitter and elsewhere, restoring the bookstore’s online reputation and visiting in droves.
+[2:46 p.m. AEST]
+Travelers on Qantas Airlines hoping to sail through check-in discovered a nasty surprise today, as a booking-system outage prevented passengers from gaining access to their reservations online. At first, it seemed that Qantas, like a number of other international companies, had fallen prey to a ransomware virus, known as Petya, that started in Ukraine and swept the world.
+But the truth soon emerged: The problem was an unrelated hardware issue in the airline’s third-party booking system, Amadeus. “To be clear, Qantas has not been impacted by the Petya ransomware attack,” the company said in a statement.
+Looks as if ransomware victimhood is more embarrassing than just a technical breakdown.
+So who was affected by the attack? Here’s a list of victims compiled by New York Times reporters around the world. It includes Australian branches of several international companies.
+DLA Piper, a global law firm with offices in Brisbane, Melbourne, Perth and Sydney, for example, warned its clients that they were dealing with a “serious global cyber incident” and suspended its systems as a precaution.
+Other companies in Australia tried to play it coy. A picture purportedly of an infected screen at a Cadbury chocolate factory in Tasmania, which included a demand for $300 in Bitcoin in exchange for the recovery of files, was circulating Monday on Twitter. But while Qantas was quick to own its technical flaws, the candy maker kept it vague.
+When we reached out to the company to ask what was going on, a spokeswoman for Mondelez International, the American company that owns Cadbury, admitted that its systems were down without explicitly confirming that it was a victim of ransomware.
+It did say it was working quickly to address the global outage. One Twitter user joked that it could pay the ransom in chocolate.
+[3:30 p.m. AEST]
+Meanwhile in Western Australia, a suburban man took justice into his own hands. After his 6-year-old daughter discovered a burglar in their house, James Burton performed a dramatic citizen’s arrest. Watch the action (and re-enactment); you’ll want to see what happens at the one-minute mark.
+It reminded us of these local heroes who stopped a robbery at an Oporto last year. Know of other examples of local hero coverage worth highlighting? Email us at nytaustralia@nytimes.com.
+[4:07 p.m. AEST]

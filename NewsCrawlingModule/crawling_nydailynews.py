@@ -73,41 +73,65 @@ def crawling_nydailynews(currency, country_names, direct):
             el = soup.select('li.col.col-desktop-3.col-tablet-3.col-mobile-6')
             article_num = len(el)
             for i in range(article_num):
-                date = el[i].select('span.timestamp')[0].text
-                
-                if date in range(0,150):
-                    title = el[i].select('a.no-u')[0].text
-                    url = el[i].select('a.no-u')[0]['href']
-                    if not todo_list.get(url):
-                        todo_list[url] = [date, title]
+                #date = el[i].select('span.timestamp')[0].text
+                #date = str_to_week_num(date)
+                title = el[i].select('a.no-u')[0].text
+                url = el[i].select('a.no-u')[0]['href']
+                if not todo_list.get(url):
+                    todo_list[url] = title
     
     print('  got ',len(todo_list.keys()),'urls')
     print('  crawling article bodies...')
+
+    try:
+        f = open('resource/urls/'+currency+'.txt', 'a', encoding='utf-8')
+        for url in todo_list.keys():
+            title = todo_list[url].replace(':',' ')
+            f.write(url+'##'+title+'\n')
+        f.close()
+
+    except:
+        print('error!!!!!')
+
+    count = 0
     for url in todo_list.keys():
-        body = crawling_nydailynews_body(base_url + url)
-        title = todo_list[url][1].replace(":"," ")
-        date = todo_list[url][0]
-        directory = direct + '/' +currency+'/'+str(date)
-        if not os.path.exists(directory):
-            os.makedirs(directory)
-        file_name = directory+'/'+title+'.txt'
-        try:
-            f = open(file_name, 'w', encoding='utf-8')
-            f.write(body)
-        except:
-            print('error!')
-        finally:
-            f.close()
+        body, date = crawling_nydailynews_body(base_url + url)
+        if date in range(0,150):
+            title = todo_list[url].replace(":"," ")
+            directory = direct + '/' +currency+'/'+str(date)
+            if not os.path.exists(directory):
+                os.makedirs(directory)
+            #file_name = directory+'/'+title+'.txt'
+            try:
+                f = open(directory+'/daily'+str(count)+'.txt', 'w', encoding='utf-8')
+                f.write(title+'\n')
+                f.write(body)
+            except:
+                print('error!')
+            finally:
+                f.close()
+            count += 1
     
 
 def crawling_nydailynews_body(url):
     print(url)
     ret = ""
     soup = BeautifulSoup(requests.get(url).text, 'html.parser')
-    body = soup.select('div[data-pb-name="Article Body (Elements)"]')[0].select('div[data-type="text"]')
-    for i in range(len(body)):
-        ret += body[i].text + "\n"
+    try:
+        date = soup.select('span[class="timestamp timestamp-article "]')[0].text
+        date = str_to_week_num(date)
+
+        body = soup.select('div[data-pb-name="Article Body (Elements)"]')
+        body = body[0].select('div[data-type="text"]')
+
+        for i in range(len(body)):
+            ret += body[i].text + "\n"
+        
+    except:
+        print('except')
+        pass
     return ret
 
 if __name__=='__main__':
-    crawling_nydailynews('korea', ['korea'], '../news')
+    #crawling_nydailynews('korea', ['korea'], '../news')
+    crawling_nydailynews_body('http://www.nydailynews.com/coronavirus/ny-coronavirus-20200529-sq4347kkcra45mer7v3ra4f3e4-story.html')

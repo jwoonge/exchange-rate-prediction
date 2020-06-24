@@ -1,0 +1,46 @@
+Russia Suspected by Some in Giant Bulgaria Hack
+SOFIA, Bulgaria — Kristiyan Boikov was 14 years old and living in Bulgaria’s second-largest city, Plovdiv, when his parents gave him his first computer as a gift. He was soon obsessed, teaching himself a variety of computer languages and then, like many of his friends, turning his focus to issues of network security.
+The world of cryptography — the tools used to keep information from being unintentionally exposed — held a special appeal.
+“There is so much you can learn,” he said. “Endless possibilities.”
+Six years later, Mr. Boikov finds himself at the center of the largest hacking case in the nation’s history, accused by prosecutors of stealing the personal data of nearly every working adult in the country from the National Revenue Agency and working to “create instability in the country.”
+He denies all the charges, and many people, including Western intelligence officials and security experts, have expressed doubts about the government’s case, noting that whoever was responsible, the episode raised serious concerns about the state of the country’s cybersecurity.
+The hack was made public — with the data leaked to news media organizations from an email bearing a Russian address — just as Bulgaria was finalizing its purchase of eight new F-16s as part of an American-backed plan to replace the country’s aging Soviet-era jets and bring its air force in line with NATO standards.
+The deal, worth $1.25 billion — the largest military procurement by post-Communist Bulgaria — includes the jets, ammunition, equipment and pilot training. Six single-seat and two two-seat F-16s would be delivered by 2023.
+In the immediate aftermath of the breach, Bulgaria’s interior minister, Mladen Marinov, raised the prospect that Russia might have had a hand in the attack, given the timing.
+“Organized criminal groups involved in cyberattacks usually seek financial profits, but political motives are possible,” he told reporters. “One can make a guess here.”
+Several American officials who follow Russia closely say the hacking bears the hallmark of an operation by Russia’s military intelligence service, the G.R.U., to include a financial and political influence campaign targeting key decision makers within Bulgaria’s government. But United States spy agencies have not yet conclusively determined who carried out the attack.
+Some Bulgarian analysts say Russia views Bulgaria’s membership in NATO and the European Union as “a Trojan horse” that Moscow could use to exert influence over the two groups’ collective decision-making to blunt initiatives that contradict Russian interests.
+But such a scenario requires that Russia maintain a sufficient influence over Bulgaria’s domestic and foreign policy.
+Ognian Shentov, the director of the Center for the Study of Democracy, in Sofia, said Bulgaria had perhaps the closest relationship with Russia of any European Union member.
+“We have always been halfway between the Visegrad countries and Russia,” Mr. Shentov said, referring to an Eastern European group that includes the Czech Republic, Hungary, Poland and Slovakia.
+Russia’s biggest lever in Bulgaria is in the energy sector, in which it controls 100 percent of the country’s nuclear power, 100 percent of its natural gas and most of its fuel supply, Mr. Shentov said.
+Moscow has not hesitated to use it. The first government of Prime Minister Boiko Borisov collapsed in 2013 after a spike in energy prices that led to widespread protests, which Mr. Shentov said had been fueled by Russia.
+At the same time, there was pressure on the government to sign off on a moratorium on gas exploration by Western companies. After Mr. Borisov resigned and was then re-elected, the moratorium remained in place.
+The recent hack, in which the data of about five million people was stolen, has renewed concerns about other ways Russia could exert its influence.
+“While an enthusiastic member of NATO, Bulgaria has weak and porous cyberdefenses — probably the worst in the alliance,” said Adm. James G. Stavridis, a four-star former NATO military commander.
+“Significant cybercriminal activity, including some sponsored by the Russian state, is rife,” he added. “Any ‘shield wall’ is only as strong as the weakest barrier, and the linkages into NATO infrastructure via Bulgaria during exercises and deployments there are concerning.”
+State Department officials also acknowledge the seriousness of the hack — regardless of who carried it out — and said it represented “a wake-up call” for the Bulgarian government at a time when Washington and other NATO allies are seeking to counter what they call Russia’s “malign influence.”
+Sitting in his lawyer’s office in Sofia, the capital, for his first interview with a foreign reporter since his arrest, Mr. Boikov said the whole thing seemed a bit unreal.
+“They threatened me and told me what my future would be like if I didn’t confess,” he said.
+Ivan Todorov, the chief executive of the cybersecurity company where Mr. Boikov worked, the TAD Group, and another employee, Georgi Yankov, were also arrested and charged with cyberterrorism. All three deny any involvement.
+Mr. Yankov, in an interview last week, said he had just gotten off the phone with a New York Times reporter when he was arrested.
+“I am a sales guy,” he said. “I don’t even know the technical stuff.”
+He said he believed the government was angry that he had been speaking to the foreign news media and needed to show that it was taking action.
+The prosecutor’s office made public what it said was compelling evidence, including CCTV footage that it claims shows Mr. Boikov and Mr. Yankov discussing the hack.
+Prosecutors also said they had obtained files from Mr. Boikov’s computer that linked him to the attack. On Friday, they released what they said were incriminating text messages from the encrypted Telegram app and witness statements.
+Lawyers for Mr. Boikov said they had no way to judge whether the government information had been manipulated or taken out of context.
+The attack on the National Revenue Agency, the equivalent of the Internal Revenue Service, exposed how deeply flawed Bulgaria’s cybersecurity infrastructure is.
+The breach was made possible by one of the most basic tools in the hacker kit, something known as SQL Injection — essentially, the attacker uses a login page to insert malicious code that allows access to data.
+It is one of the most common forms of attack and one of the most easily defended against.
+After the breach, however, the Bulgarian tax authority was forced to acknowledge that it had never performed even simple penetration testing.
+Bozhidar Bozhanov, who worked as an adviser to the Bulgarian government on cybersecurity from 2015 to 2016, said that what was most frightening about the breach was how easy it was to pull off.
+“The claim of the prime minister that this was some kind of wizard is ridiculous,” he said. “This could be done by any script kiddie,” he said, using a term for an unsophisticated hacker relying on widely available software.
+He said that he did not believe Russia was involved, but that if a “script kiddie could do this,” one could only imagine what could be done with the backing of Russia’s intelligence services.
+Now working at a cybersecurity start-up, Mr. Bozhanov said that government institutions in Bulgaria have not taken even the most modest of measures to protect data.
+“This breach was kind of inevitable,” he said. The government, he said, simply did not have people with the needed expertise and could not compete with the country’s booming private IT industry.
+Rosen Bachvarov, a spokesman for the National Revenue Agency, said the agency had been flooded with around 5,000 calls every day from anxious citizens. A website allowing people to check whether their data was stolen has been used 1.2 million times, and a list of suggestions is being prepared for those whose data was stolen.
+“We are now mainly interested in dealing with the consequences of the breach,” he said.
+Those consequences remain hard to quantify.
+Data stolen in other breaches typically finds its way onto the so-called dark web — a corner of the internet that can be visited anonymously with special browsers — limiting the exposure.
+But the Bulgarians’ data was leaked to the news media, and links to where it could be found were published online. Much of the stolen information is only a quick internet search away.
+“The obvious lesson learned is we have to reconsider how we protect information,” Mr. Bachvarov said. “Not just at this agency, but across the government.”

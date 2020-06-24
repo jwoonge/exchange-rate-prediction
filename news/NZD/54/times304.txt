@@ -1,0 +1,13 @@
+A Drone Saves Two Swimmers in Australia
+SYDNEY, Australia — A practice session for Australian lifeguards who were testing a new drone turned into a real rescue when the drone helped save two swimmers at a beach in New South Wales.
+On Thursday morning, Jai Sheridan, a lifeguard supervisor who was operating the drone, was alerted to two young men caught in turbulent surf with 10-foot swells. Mr. Sheridan then steered the drone toward the swimmers.
+In video of the incident taken from the drone, it can be seen releasing a yellow “rescue pod” that inflates in the water. The two swimmers grabbed the pod, and with its support they made their way to shore. They were fatigued, but not hurt, Surf Life Saving New South Wales, a volunteer organization, said in a statement.
+The rescue took just 70 seconds. “On a normal day that would have taken our lifeguards a few minutes longer,” Mr. Sheridan said.
+The drone used for the rescue, known as a Little Ripper unmanned aerial vehicle, is also part of a shark-spotting program being rolled out across Australian beaches this summer. It uses an algorithm to automatically recognize sharks.
+“The applications in the water are just phenomenal,” said Michael Blumenstein, a professor at the University of Technology Sydney who oversaw the team that developed the shark-spotting software. “The amount of payload that these drones carry enable them to be really be versatile.”
+In cases involving rough surf, remote locations or natural disasters, where conditions may be hazardous and time is a factor, Professor Blumenstein said, drones are able to help operators assess a situation without endangering human lives. Farmers have also found practical applications for drones, using them to efficiently assess the health of their crops, for example.
+But in crowded urban areas, Professor Blumenstein said, security concerns may still be an issue. “People are still, I think, wary of low-hanging hovering objects, and rightfully so,” he said.
+In December, the state government of New South Wales announced that it would invest 430,000 Australian dollars, or $345,000, into drone technology as part of a trial on the state’s North Coast.
+John Barilaro, deputy premier of New South Wales, said after Thursday’s rescue that the investment had already paid off. “Never before has a drone, fitted with a flotation device, been used to rescue swimmers like this,” Mr. Barilaro said.
+The software developed by Professor Blumenstein’s team could soon become a vital tool for lifeguards.
+“There’s no reason why we couldn’t use it to automatically detect people in the water,” he said.
